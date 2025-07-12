@@ -1,0 +1,11 @@
+{"level":"info","message":"Connected to MongoDB","service":"travel-log-api","timestamp":"2025-05-04 16:24:58"}
+{"level":"info","message":"Connected to MongoDB","service":"travel-log-api","timestamp":"2025-05-04 16:37:19"}
+{"level":"info","message":"Connected to MongoDB","service":"travel-log-api","timestamp":"2025-05-04 16:37:29"}
+{"level":"info","message":"Connected to MongoDB","service":"travel-log-api","timestamp":"2025-05-04 16:38:48"}
+{"level":"info","message":"Connected to MongoDB","service":"travel-log-api","timestamp":"2025-05-04 16:39:55"}
+{"level":"info","message":"Connected to MongoDB","service":"travel-log-api","timestamp":"2025-05-04 16:42:16"}
+{"level":"info","message":"Connected to MongoDB","service":"travel-log-api","timestamp":"2025-05-04 16:44:41"}
+{"level":"info","message":"Connected to MongoDB","service":"travel-log-api","timestamp":"2025-05-28 21:53:58"}
+{"level":"info","message":"::1 - - [28/May/2025:16:24:03 +0000] \"GET / HTTP/1.1\" 200 39 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36\"","service":"travel-log-api","timestamp":"2025-05-28 21:54:03"}
+{"level":"info","message":"::1 - - [28/May/2025:16:24:04 +0000] \"GET /favicon.ico HTTP/1.1\" 404 55 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36\"","service":"travel-log-api","timestamp":"2025-05-28 21:54:04"}
+{"level":"info","message":"::1 - - [28/May/2025:16:24:23 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36\"","service":"travel-log-api","timestamp":"2025-05-28 21:54:23"}

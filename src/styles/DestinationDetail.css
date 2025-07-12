@@ -1,0 +1,354 @@
+/* styles/DestinationDetail.css */
+.destination-detail-page {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+  }
+  
+  .destination-hero {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 2rem 5rem;
+    color: white;
+    position: relative;
+  }
+  
+  .hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .destination-hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .destination-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .meta-item {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    font-weight: 600;
+  }
+  
+  .meta-item i {
+    margin-right: 0.7rem;
+    color: #f9a51a;
+  }
+  
+  .destination-content {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 2rem;
+  }
+  
+  .destination-overview h2 {
+    font-size: 2.5rem;
+    color: #1e3c72;
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .destination-overview h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background-color: #f9a51a;
+  }
+  
+  .destination-overview p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .highlights-section {
+    margin: 3rem 0;
+  }
+  
+  .highlights-section h3 {
+    font-size: 1.8rem;
+    color: #1e3c72;
+    margin-bottom: 1.5rem;
+  }
+  
+  .highlights-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .highlights-list li {
+    background: #f8f9fa;
+    padding: 1.2rem 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    font-weight: 500;
+  }
+  
+  .highlights-list li i {
+    color: #f9a51a;
+    margin-right: 0.8rem;
+    margin-top: 0.2rem;
+  }
+  
+  .destination-details {
+    display: flex;
+    gap: 3rem;
+    margin: 4rem 0;
+  }
+  
+  .itinerary-section {
+    flex: 2;
+  }
+  
+  .itinerary-section h2 {
+    font-size: 2.5rem;
+    color: #1e3c72;
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .itinerary-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background-color: #f9a51a;
+  }
+  
+  .itinerary-days {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .itinerary-day {
+    background: #f8f9fa;
+    padding: 1.8rem;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .itinerary-day h4 {
+    color: #1e3c72;
+    margin-bottom: 1.2rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .itinerary-day h4::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #f9a51a;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+  }
+  
+  .itinerary-day ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  
+  .itinerary-day li {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .itinerary-day li i {
+    color: #f9a51a;
+    font-size: 0.6rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .tips-section {
+    flex: 1;
+  }
+  
+  .tips-section h3 {
+    font-size: 1.8rem;
+    color: #1e3c72;
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .tips-section h3::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background-color: #f9a51a;
+  }
+  
+  .tips-list {
+    list-style: none;
+    padding: 0;
+    background: #f8f9fa;
+    padding: 1.8rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .tips-list li {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .tips-list li i {
+    color: #f9a51a;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+  }
+  
+  .booking-section {
+    text-align: center;
+    margin: 5rem 0;
+    padding: 4rem;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    border-radius: 10px;
+    color: white;
+  }
+  
+  .booking-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .booking-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+  }
+  
+  .booking-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .book-now-btn, .contact-btn {
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  
+  .book-now-btn {
+    background-color: #f9a51a;
+    color: white;
+  }
+  
+  .book-now-btn:hover {
+    background-color: white;
+    color: #1e3c72;
+    transform: translateY(-3px);
+  }
+  
+  .contact-btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  
+  .contact-btn:hover {
+    background-color: white;
+    color: #1e3c72;
+    transform: translateY(-3px);
+  }
+  
+  .destination-not-found {
+    text-align: center;
+    padding: 5rem;
+    font-size: 1.5rem;
+    color: #1e3c72;
+  }
+  
+  @media (max-width: 992px) {
+    .destination-details {
+      flex-direction: column;
+    }
+    
+    .tips-section {
+      margin-top: 3rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .destination-hero {
+      height: 60vh;
+      padding: 0 1.5rem 3rem;
+    }
+    
+    .destination-hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .meta-item {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+    
+    .destination-content {
+      padding: 0 1.5rem;
+    }
+    
+    .highlights-list {
+      grid-template-columns: 1fr;
+    }
+    
+    .booking-section {
+      padding: 2.5rem 1.5rem;
+    }
+    
+    .booking-actions {
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+    }
+    
+    .book-now-btn, .contact-btn {
+      width: 100%;
+      max-width: 300px;
+      justify-content: center;
+    }
+  }
